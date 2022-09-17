@@ -1,6 +1,7 @@
 # maps-and-sets-exercise
 
 Quick Question #1
+
 What does the following code return?
 
 new Set([1,1,2,2,3,4])
@@ -10,6 +11,7 @@ Answer: A set with a size of four containing '1', '2', '3', and '4'.
 ______
 
 Quick Question #2
+
 What does the following code return?
 
 [...new Set("referee")].join("")
@@ -19,6 +21,7 @@ Answer: the string "ref"
 ______
 
 Quick Questions #3
+
 What does the Map m look like after running the following code?
 
 let m = new Map();
@@ -30,6 +33,7 @@ Answer: It has two entries with a key of an array containing 1, 2, and 3, where 
 ______
 
 hasDuplicate
+
 Write a function called hasDuplicate which accepts an array and returns true or false if that array contains a duplicate
 
 function hasDuplicate(arr) {
@@ -42,6 +46,7 @@ function hasDuplicate(arr) {
 _______
 
 vowelCount
+
 Write a function called vowelCount which accepts a string and returns a map where the keys are numbers and the values are the count of the vowels in the string.
 
 function vowelCount(str) {
